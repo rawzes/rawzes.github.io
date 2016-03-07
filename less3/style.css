@@ -1,0 +1,15 @@
+p {
+    color: rgba(7, 7, 3, 0.51);
+    font-size: larger;
+    /* this is comment */
+}
+h1 {
+    color: red;
+    font-size: 20px;
+}
+ .super {
+    color: darkorchid;
+}
+.big {
+    font-style: italic;
+}
