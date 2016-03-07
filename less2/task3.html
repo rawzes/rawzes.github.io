@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="test" action="#">
+    <label for="name">Name</label><br/>
+    <input type="text" id="name"><br/>
+    <label for="mail">E-mail</label> <br/>
+    <input type="email" id="mail">
+    <p>Sex</p>
+    <input type="radio" name="sex" value="male" title="Male">Male
+    <input type="radio" name="sex" value="female" title="Female">Female<br/>
+    <p>Current status</p>
+    <input type="checkbox" id="check1"><label for="check1">Student</label><br/>
+    <input type="checkbox" id="check2"><label for="check2">Employed</label><br/>
+    <input type="checkbox" id="check3"><label for="check3">Unemployed</label><br/>
+    <p>Month and Year of birth</p>
+    <select name="month">
+        <option value="1">Janiary</option>
+        <option value="2">Febriary</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+    </select>
+    <select name="year">
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+    </select>
+    <p>Skills and Technologies</p>
+    <select name="skills" size="10" multiple="multiple">
+        <optgroup label="Tech skills"></optgroup>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">Java Script</option>
+        <option value="git">git</option>
+        <optgroup label="Soft skills"></optgroup>
+        <option value="tm">Time management</option>
+        <option value="pa">Proactivity</option>
+        <option value="tw">Team work</option>
+        <option value="ls">Leadership</option>
+    </select>
+    <p>Photo</p>
+    <input type="file" name="file"/>
+    <p>Comments</p>
+    <textarea cols="50" rows="5"></textarea><br/>
+    <input type="submit" value="Save">
+</form>
+</body>
+</html>
